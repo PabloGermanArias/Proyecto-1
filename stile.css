@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+.logogomeria {
+    border-radius: 35px;
+    width: 350px;
+}
+
+.bg-body-tertiary {
+    background-image: url(./imagenes/navfondo.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iconoburguer{
+    color: rgb(255, 238, 0);
+    
+}
+
+.box-carousel {
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    
+    
+}
+.box-promo {
+    width: 100%;
+    height: 100%;
+   
+}
+.imagenpromos {
+    object-fit: cover;
+}
+
+
+
+
+    
