@@ -41,6 +41,8 @@
     margin: auto;
     justify-content: space-around; 
     object-fit: scale-down; 
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
