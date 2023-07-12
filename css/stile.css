@@ -12,7 +12,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.iconoburguer{
+
+.nav-linnk {
+    text-decoration: none;
+    margin: 15px;
+} 
+
+.iconoburguer, .nav-linnk{
     color: rgb(255, 238, 0);   
 }
 .box-carousel {
@@ -40,4 +46,13 @@
 .contacto-mapas {
     margin: auto;
     padding: 50px;
+}
+
+@media ( width < 768) {
+    conten-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
