@@ -56,3 +56,16 @@
     }
 
 }
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 208, 0);
+    
+}
+
+.pie p {
+    margin: 25px;
+}
