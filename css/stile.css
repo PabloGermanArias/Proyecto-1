@@ -114,8 +114,13 @@
     justify-content: center;
 }
 
-.servicio1, .servicio2 {
-  display: flex;
-  width: 60%;
-  
+.contenedor-servicios {
+    width: 80vw;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.ser-1, .ser-2 {
+    padding: 25px;
 }
