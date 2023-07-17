@@ -70,3 +70,52 @@
     margin: 25px;
 }
 
+
+
+.grilla {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 15% repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr) 60px;
+    justify-content: center;
+    grid-template-areas: 
+    "filtro p-1 p-2"
+    "filtro p-3 p-4"
+    ". p-5 p-6"
+    "nav nav nav";
+}
+.filtro {
+    margin-right: 25px;
+    grid-area: filtro;
+}
+.p-1 {
+    grid-area: p-1;
+}
+.p-2 {
+    grid-area: p-2;
+}
+.p-3 {
+    grid-area: p-3;
+}
+.p-4 {
+    grid-area: p-4;
+}
+.p-5 {
+    grid-area: p-5;
+}
+.p-6 {
+    grid-area: p-6;
+}
+.navegacion {
+    margin-top: 25px;
+    grid-area: nav;
+}
+.pagination {
+    justify-content: center;
+}
+
+.servicio1, .servicio2 {
+  display: flex;
+  width: 60%;
+  
+}
