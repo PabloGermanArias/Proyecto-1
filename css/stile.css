@@ -124,3 +124,19 @@
 .ser-1, .ser-2 {
     padding: 25px;
 }
+
+.promos {
+    width: 75vh;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    margin: 25px
+}
+
+
+
+.contenedor-promo{
+    display: flex;
+    align-items: flex-start;
+
+}
