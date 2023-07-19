@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
  }
 .logogomeria {
     border-radius: 35px;
@@ -25,8 +26,19 @@
     width: 100%;
     margin: auto;
     background: url(../imagenes/fondo-html.jpg);
-    background-position: center;   
+    background-position: center;
+    padding: 15px;   
 }
+
+.titulo { display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+
+}
+
+
 .imagenpromos {
     width: 100%;
     height: 40vh;
@@ -83,7 +95,9 @@
     "filtro p-3 p-4"
     ". p-5 p-6"
     "nav nav nav";
+    
 }
+
 .filtro {
     margin-right: 25px;
     grid-area: filtro;
@@ -110,9 +124,31 @@
     margin-top: 25px;
     grid-area: nav;
 }
+
 .pagination {
     justify-content: center;
 }
+
+@media ( width < 1200px) {
+    .grilla{
+    width: auto;
+    grid-template-rows: repeat(6, 0.8fr) 0.1fr ;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+    align-items: self-start;
+    grid-template-areas: 
+    "filtro p-1"
+    "filtro p-2"
+    ". p-3"
+    ". p-4"
+    ". p-5"
+    ". p-6"
+    "nav nav";
+    }
+   
+
+}
+
 
 .contenedor-servicios {
     width: 80vw;
