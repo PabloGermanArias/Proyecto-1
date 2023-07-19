@@ -17,15 +17,20 @@
 .nav-linnk {
     text-decoration: none;
     margin: 15px;
+    
 } 
+ 
 
 .iconoburguer{
     width:  16px;
     height: 16px;
 }
 .iconoburguer, .nav-linnk{
-    color: rgb(255, 238, 0);   
+    color: rgb(255, 238, 0); 
 }
+.iconoburguer, .nav-linnk:hover{
+        color: rgb(223, 222, 220);}
+
 .box-carousel {
     width: 100%;
     margin: auto;
