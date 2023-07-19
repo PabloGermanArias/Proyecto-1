@@ -19,6 +19,10 @@
     margin: 15px;
 } 
 
+.iconoburguer{
+    width:  16px;
+    height: 16px;
+}
 .iconoburguer, .nav-linnk{
     color: rgb(255, 238, 0);   
 }
