@@ -71,6 +71,10 @@
   margin: auto;
   padding: 50px;
 }
+.contacto-mapas .mapita iframe {
+  width: 100%;
+  height: 450px;
+}
 
 .pie {
   display: flex;
@@ -176,4 +180,4 @@
   }
 }
 
-
+/*# sourceMappingURL=main.css.map */

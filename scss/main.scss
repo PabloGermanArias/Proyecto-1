@@ -65,6 +65,13 @@ $background-color_1: black;
 .contacto-mapas {
 	margin: auto;
 	padding: 50px;
+    .mapita{
+        iframe {
+            width: 100%;
+            height: 450px; 
+            
+        }
+    }
 }
 .pie {
 	display: flex;
@@ -143,7 +150,7 @@ $background-color_1: black;
 		align-items: center;
 	}
 }
-@media ( width < 1200px) {
+@media ( width < 1200px){
 	.grilla {
 		width: auto;
 		grid-template-rows: repeat(6, 0.8fr) 0.1fr;
