@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logogomeria {
+  border-radius: 35px;
+  width: 350px;
+}
+
+.bg-body-tertiary {
+  background-image: url(../imagenes/navfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-linnk {
+  text-decoration: none;
+  margin: 15px;
+  color: rgb(255, 238, 0);
+}
+.nav-linnk:hover {
+  color: rgb(223, 222, 220);
+}
+
+.iconoburguer {
+  width: 16px;
+  height: 16px;
+  color: rgb(255, 238, 0);
+  color: rgb(223, 222, 220);
+}
+
+.box-carousel {
+  width: 100%;
+  margin: auto;
+  background: url(../imagenes/fondo-html.jpg);
+  background-position: center;
+  padding: 15px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.imagenpromos {
+  width: 100%;
+  height: 40vh;
+  object-fit: scale-down;
+}
+
+.conten-cards {
+  margin: auto;
+  justify-content: space-around;
+  object-fit: scale-down;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.imagencard {
+  height: 60%;
+  object-fit: cover;
+}
+
+.contacto-mapas {
+  margin: auto;
+  padding: 50px;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: rgb(223, 222, 220);
+}
+.pie p {
+  margin: 25px;
+}
+
+.grilla {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 15% repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr) 60px;
+  justify-content: center;
+  grid-template-areas: "filtro p-1 p-2" "filtro p-3 p-4" ". p-5 p-6" "nav nav nav";
+}
+
+.filtro {
+  margin-right: 25px;
+  grid-area: filtro;
+}
+
+.p-1 {
+  grid-area: p-1;
+}
+
+.p-2 {
+  grid-area: p-2;
+}
+
+.p-3 {
+  grid-area: p-3;
+}
+
+.p-4 {
+  grid-area: p-4;
+}
+
+.p-5 {
+  grid-area: p-5;
+}
+
+.p-6 {
+  grid-area: p-6;
+}
+
+.navegacion {
+  margin-top: 25px;
+  grid-area: nav;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.contenedor-servicios {
+  width: 80vw;
+  margin: auto;
+  padding: 25px;
+}
+
+.ser-1 {
+  padding: 25px;
+}
+
+.ser-2 {
+  padding: 25px;
+}
+
+.promos {
+  width: 75vh;
+  margin: auto;
+  padding: 15px;
+  margin-top: 15px;
+  margin: 25px;
+}
+
+.contenedor-promo {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (width < 768) {
+  conten-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (width < 1200px) {
+  .grilla {
+    width: auto;
+    grid-template-rows: repeat(6, 0.8fr) 0.1fr;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+    align-items: self-start;
+    grid-template-areas: "filtro p-1" "filtro p-2" ". p-3" ". p-4" ". p-5" ". p-6" "nav nav";
+  }
+}
+
+
