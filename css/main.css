@@ -193,7 +193,7 @@
     width: 100%;
   }
   .contenedor-promo {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
