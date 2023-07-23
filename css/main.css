@@ -139,6 +139,10 @@
   justify-content: center;
 }
 
+.vcubierta {
+  width: 80%;
+}
+
 .contenedor-servicios {
   width: 80vw;
   margin: auto;
@@ -184,6 +188,9 @@
   }
   .conten-cards .card {
     width: 60%;
+  }
+  .vcubierta {
+    width: 100%;
   }
 }
 
