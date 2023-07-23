@@ -52,11 +52,16 @@ $background-color_1: black;
 	object-fit: scale-down;
 }
 .conten-cards {
+	display: flex;
+	flex-direction: row;
 	margin: auto;
 	justify-content: space-around;
 	object-fit: scale-down;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	.card {
+		width: 25%;
+	}
 }
 .imagencard {
 	height: 60%;
@@ -143,13 +148,7 @@ $background-color_1: black;
 	display: flex;
 	align-items: flex-start;
 }
-@media ( width < 768) {
-	conten-cards {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-}
+
 @media ( width < 1200px){
 	.grilla {
 		width: auto;
@@ -158,5 +157,15 @@ $background-color_1: black;
 		justify-content: center;
 		align-items: self-start;
 		grid-template-areas: "filtro p-1" "filtro p-2" ". p-3" ". p-4" ". p-5" ". p-6" "nav nav";
+	}
+}
+@media ( width < 768px) {
+	.conten-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.card {
+			width: 60%;
+		}
 	}
 }
