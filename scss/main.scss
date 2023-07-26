@@ -22,9 +22,9 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 .nav-linnk {
 	text-decoration: none;
 	margin: 15px;
-	color: $color_1;
+	color: $background-color_botton;
 	&:hover {
-		color: $color_2;
+		color: $color_1;
 	}
 }
 .iconoburguer {
@@ -73,8 +73,7 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
     .mapita{
         iframe {
             width: 100%;
-            height: 450px; 
-            
+            height: 450px;  
         }
     }
 }
@@ -196,6 +195,9 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 	.grilla {
 		grid-template-columns: 35% 65%;
 
+	}
+	.logogomeria {
+		width: 180px;
 	}
 }
 

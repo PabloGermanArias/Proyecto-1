@@ -19,10 +19,10 @@
 .nav-linnk {
   text-decoration: none;
   margin: 15px;
-  color: rgb(221, 224, 10);
+  color: rgba(5, 20, 156, 0.938);
 }
 .nav-linnk:hover {
-  color: rgb(223, 222, 220);
+  color: rgb(221, 224, 10);
 }
 
 .iconoburguer {
@@ -212,6 +212,9 @@
   }
   .grilla {
     grid-template-columns: 35% 65%;
+  }
+  .logogomeria {
+    width: 180px;
   }
 }
 
