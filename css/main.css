@@ -196,6 +196,7 @@
   }
   .vcubierta {
     width: 100%;
+    margin-bottom: 15px;
   }
   .contenedor-promo {
     flex-direction: column;
