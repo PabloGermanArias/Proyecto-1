@@ -17,6 +17,7 @@
 }
 
 .nav-linnk {
+  font-size: 1.5em;
   text-decoration: none;
   margin: 15px;
   color: rgba(5, 20, 156, 0.938);
@@ -215,6 +216,9 @@
   }
   .logogomeria {
     width: 180px;
+  }
+  .nav-linnk {
+    font-size: 1em;
   }
 }
 
