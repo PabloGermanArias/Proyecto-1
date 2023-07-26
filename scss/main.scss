@@ -183,7 +183,10 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 	}
 	.contenedor-promo{
 		flex-direction: column;
-		
+	}
+	.grilla {
+		grid-template-columns: 35% 65%;
+
 	}
 }
 

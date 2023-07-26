@@ -200,6 +200,9 @@
   .contenedor-promo {
     flex-direction: column;
   }
+  .grilla {
+    grid-template-columns: 35% 65%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
