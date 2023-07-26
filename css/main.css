@@ -85,7 +85,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: black;
+  background-color: rgb(17, 16, 16);
   color: rgb(223, 222, 220);
 }
 .pie p {
@@ -168,6 +168,11 @@
 .contenedor-promo {
   display: flex;
   align-items: flex-start;
+}
+
+.btn {
+  color: rgb(255, 238, 0);
+  background-color: rgba(5, 20, 156, 0.938);
 }
 
 @media (width < 1200px) {
