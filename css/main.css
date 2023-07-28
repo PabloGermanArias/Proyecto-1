@@ -31,6 +31,10 @@
   height: 35px;
 }
 
+.carrito {
+  width: 35px;
+}
+
 .box-carousel {
   width: 100%;
   margin: auto;
@@ -58,7 +62,6 @@
   flex-direction: row;
   margin: auto;
   justify-content: space-around;
-  object-fit: scale-down;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -68,7 +71,7 @@
 
 .imagencard {
   height: 60%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .contacto-mapas {
@@ -193,8 +196,11 @@
     align-items: self-start;
     grid-template-areas: "filtro p-1" "filtro p-2" ". p-3" ". p-4" ". p-5" ". p-6" "nav nav";
   }
+  .nav-linnk {
+    font-size: 1rem;
+  }
 }
-@media (width < 768px) {
+@media (width < 815px) {
   .conten-cards {
     display: flex;
     flex-direction: column;
