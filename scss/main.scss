@@ -73,7 +73,7 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 }
 .contacto-mapas {
 	margin: auto;
-	padding: 50px;
+	padding: 30px;
     .mapita{
         iframe {
             width: 100%;
@@ -157,19 +157,6 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 	align-items: flex-start;
 }
 
-.btn {
-	color: $color_1;
-	background-color: $background-color_botton
-}
-.error {
-	max-width: 100%;
-	.imagen404 {
-		width: 100%;
-        max-height: 80vh;
-        object-fit: contain;
-	}
-}
-
 @media ( width < 1200px){
 	.grilla {
 		width: auto;
@@ -233,8 +220,6 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 		
 	}
 	
-	
-  
 .contenedor-error {
 	width: 100vw;
 	display: flex;
