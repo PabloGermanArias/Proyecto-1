@@ -132,6 +132,7 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 
 .vcubierta {
 	width: 80%;
+	margin-bottom: 15px;
 }
 .contenedor-servicios {
 	width: 80vw;
@@ -176,10 +177,18 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 		grid-template-columns: 25% 75%;
 		justify-content: center;
 		align-items: self-start;
-		grid-template-areas: "filtro p-1" "filtro p-2" ". p-3" ". p-4" ". p-5" ". p-6" "nav nav";
+		grid-template-areas: 
+		"filtro p-1" 
+		"filtro p-2" 
+		". p-3" 
+		". p-4" 
+		". p-5" 
+		". p-6" 
+		"nav nav";
 	}
 	.nav-linnk {
 		font-size: 1rem;
+
 	}
 }
 @media ( width < 815px) {
@@ -209,4 +218,30 @@ $background-color_botton:rgba(5, 20, 156, 0.938);
 	.nav-linnk {
 		font-size: 1em;
 		}
+}
+
+@media ( width < 540px){
+	.grilla{
+	 	display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		.filtro 
+			{display: flex;
+			margin-bottom: 15px;}
+		}
+		
+	}
+	
+	
+  
+.contenedor-error {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	.imagen-error {
+		width: 80%;
+	}
 }

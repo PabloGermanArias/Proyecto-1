@@ -144,6 +144,7 @@
 
 .vcubierta {
   width: 80%;
+  margin-bottom: 15px;
 }
 
 .contenedor-servicios {
@@ -226,6 +227,28 @@
   .nav-linnk {
     font-size: 1em;
   }
+}
+@media (width < 540px) {
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .grilla .filtro {
+    display: flex;
+    margin-bottom: 15px;
+  }
+}
+.contenedor-error {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.contenedor-error .imagen-error {
+  width: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */
